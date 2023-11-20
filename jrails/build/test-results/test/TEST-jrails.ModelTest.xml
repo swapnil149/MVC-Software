@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jrails.ModelTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-11-20T06:41:19" hostname="Animeshs-MacBook-Air.local" time="0.015">
+  <properties/>
+  <testcase name="testReset" classname="jrails.ModelTest" time="0.005"/>
+  <testcase name="testSingle" classname="jrails.ModelTest" time="0.01"/>
+  <system-out><![CDATA[Finding Counter value
+value inside readMaxIdFromDatabase 1
+Max id already present in CSV file 1
+Resetting the file
+Inside writeDatabaseFile false
+Length of the model list to be written 0
+packageName jrails
+reading database file
+Add new model to the database with id 2
+writing database file with current id 2
+Inside writeDatabaseFile true
+Length of the model list to be written 1
+Inside serialize Random
+Inside serialize RandomAuthor
+Inside serialize 400
+Inside serialize false
+String after serialization jrails.Book,2,"Random","RandomAuthor",400,false
+serialized split value array length 6
+Writing serializated string jrails.Book,2,"Random","RandomAuthor",400,false
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
